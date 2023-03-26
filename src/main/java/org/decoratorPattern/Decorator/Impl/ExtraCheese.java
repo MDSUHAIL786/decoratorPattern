@@ -4,7 +4,7 @@ import org.decoratorPattern.BasePizza.BasePizza;
 import org.decoratorPattern.Decorator.ToppingDecorator;
 
 public class ExtraCheese extends ToppingDecorator {
-    BasePizza basePizza;
+    BasePizza basePizza;   //as Extra cheese have has-a relationship with BasePizza
     public ExtraCheese(BasePizza pizza){
         this.basePizza=pizza;
     }

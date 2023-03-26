@@ -5,7 +5,7 @@ import org.decoratorPattern.Decorator.ToppingDecorator;
 
 public class Mushroom extends ToppingDecorator {
 
-    BasePizza basePizza;
+    BasePizza basePizza; //as Mushroom have has-a relationship with BasePizza
     public Mushroom(BasePizza pizza){
         this.basePizza=pizza;
     }
